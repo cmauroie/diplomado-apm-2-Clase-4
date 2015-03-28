@@ -1,16 +1,17 @@
+/*aplicar "*" globalmente a las cajas*/
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border;
+	-web-kit-box-sizzing: border-box;
+	-moz-box-sizzing: border-box;
+	box-sizzing: border;
 }
 
 h1, h2, h3, h4, h5, h6{
-	color: #333;
+	color:  #333;
 	font-weight: bold;
 }
 
 .header{
-	background-color: #3a3f43;
+	background-color: #3A3F43;
 	border-bottom: 14px;
 	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
 	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
@@ -19,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .logo{
-	background-color: #515558;
+	background: #515558;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	margin: 0 auto;
@@ -31,10 +32,16 @@ h1, h2, h3, h4, h5, h6{
 	color: #FFF;
 	font-family: Arial, sans-serif;
 	font-weight: normal;
-	margin-bottom: 0;
+	margin-bottom: 0; 
 }
 
-/* Start navigation */
+/* Start navigation*/
+
+
+/*
+selectores de css
+el signo > se refiriere al elemento hijo generalmente el primer elemento
+y el simbolo + obliga a que debe estar ligado a este elemento */
 .nav-menu, .services > figure.columns{
 	display: none;
 }
@@ -54,6 +61,7 @@ label{
 	color: #FFF;
 }
 
+/*Esto es un filtro en css*/
 #all:checked ~ .services .all,
 #develop:checked ~ .services .develop,
 #languages:checked ~ .services .languages,
@@ -74,15 +82,14 @@ label{
 	margin-right: 0;
 	width: 240px;
 }
-
-.services > figure{
+.services > figure {
 	position: relative;
 	overflow: hidden;
 }
 
 .services > figure img{
 	display: block;
-	max-width: 100%;
+	max-width: 100%; 
 }
 
 .services figcaption{
@@ -91,7 +98,7 @@ label{
 	left: 0;
 	top: 0;
 	width: 100%;
-	background-color: rgba(58, 63,68, 0.8);
+	background-color: rgba(58,63,68,0.8);
 
 	padding: 10%;
 
@@ -107,11 +114,11 @@ label{
 }
 
 .services figcaption h4{
-	color: #fff;
+	color: #FFF;
 }
 
 .services figcaption p{
-	color: #fff;
+	color: #FFF;
 	font-size: 0.9em;
 }
 
@@ -119,10 +126,10 @@ label{
 	-webkit-transform: translateX(0);
 	-moz-transform: translateX(0);
 	-o-transform: translateX(0);
-	transform: translateX(0);
+	trasnform: translateX(0);
 }
 
-/* End services */
+/* End services*/
 
 .footer{
 	border-top: 1px solid #ccc;
@@ -130,26 +137,6 @@ label{
 	padding: 28px 0;
 }
 
-input[type="radio"]{
-	display: none;
-}
-
 @media only screen and (min-width: 768px) and (max-width: 959px){
-
-}
-
-@media only screen and (min-width: 650px){
-
-.services figcaption h4{
-	font-size: 1em;
-	margin: 0;
-	color: #ff8c00;
-}
-
-.services figcaption p{
-	color: #bd1f30;
-	font-size: 1em;
-	margin: 1em;
-}
 
 }
