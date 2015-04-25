@@ -1,0 +1,25 @@
+{
+  "name": "lab29",
+  "version": "1.0.0",
+  "description": "example 29",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frawework",
+    "socket"
+  ],
+  "author": "Mauricio Idarraga",
+  "license": "GPLV1",
+  "dependencies": {
+    "body": "^5.0.0",
+    "body-parser": "^1.12.3",
+    "consolidate": "^0.12.1",
+    "debug": "^2.1.3",
+    "express": "^4.12.3",
+    "fs": "0.0.2",
+    "parser": "^0.1.4",
+    "swig": "^1.4.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "lab28",
+  "version": "1.0.0",
+  "description": "example npm",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "framework",
+    "sockets",
+    "web",
+    "sockets"
+  ],
+  "author": "Mauricio Idarraga",
+  "license": "GPLV1",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
